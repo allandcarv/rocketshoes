@@ -29,8 +29,8 @@ export default class Main extends Component {
       <ProductList>
         {products.map(product => (
           <li key={product.id}>
-            <img src={product.image} alt="Tênis" />
-            <strong>{product.name}</strong>
+            <img src={product.image} alt={product.title} />
+            <strong>{product.title}</strong>
             <span>{product.priceFormatted}</span>
 
             <button type="button">
