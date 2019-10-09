@@ -15,7 +15,6 @@
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.1.2",
-    "reactotron-redux-saga": "^4.2.2",
     "redux": "^4.0.4",
     "redux-saga": "^1.1.1",
     "styled-components": "^4.4.0"
@@ -53,6 +52,7 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "prettier": "^1.18.2",
     "reactotron-react-js": "^3.3.4",
-    "reactotron-redux": "^3.1.2"
+    "reactotron-redux": "^3.1.2",
+    "reactotron-redux-saga": "^4.2.2"
   }
 }

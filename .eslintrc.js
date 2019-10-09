@@ -31,7 +31,7 @@ module.exports = {
     'no-console': ['error', { allow: ['tron'] }],
     'import/no-extraneous-dependencies': [
       'error',
-      { devDependencies: 'ReactotronConfig.js' },
+      { devDependencies: ['**/ReactotronConfig.js'] },
     ],
   },
 };
