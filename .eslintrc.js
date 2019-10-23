@@ -16,7 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'prettier', 'react-hooks'],
   rules: {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [
@@ -25,6 +25,7 @@ module.exports = {
         extensions: ['.jsx', '.js'],
       },
     ],
+    'no-param-reassign': 'off',
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': 0,
     'react/static-property-placement': 0,
@@ -33,5 +34,7 @@ module.exports = {
       'error',
       { devDependencies: ['**/ReactotronConfig.js'] },
     ],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
